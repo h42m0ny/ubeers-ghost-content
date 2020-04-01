@@ -1,29 +1,42 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  UBeers Gatsby Website
-</h1>
+# Ubeers Ghost
+
+![Image](images/ghost_logo.png)
+
 
 Ce projet est développé dans le cadre d'un cours sur la JAM Stack donné à CESI en Avril 2020.
 
-## Etape 1-1
+Ce repository contient les éléments de contenu et images associés au projet. 
 
-Le but de cette étape va être de relier notre Gatsby à une première source de donnée, Ghost. 
+## Installation
 
-Dans un premier temps, il faut donc installer en local un Ghost. Pour ce faire, suivez le guide présent sur le repository [ubeers-ghost](https://github.com/TonyCois/ubeers-ghost).
+Vous devez avoir au moins la version 12.16.1 de Node pour pouvoir installer Ghost. 
 
-Une fois installé, il va nous falloir lié Gatsby à Ghost. Pour ce faire, nous devons installer [gatsby-source-ghost](https://github.com/tryghost/gatsby-source-ghost). 
+Pour lancer l'installation, voici la commande issue du site de Ghost : 
 
-Après avoir configuré la source, vous devriez voir dans votre GraphiQL, les données de votre Ghost pour pouvoir ainsi faire des requêtes. 
+`npm install ghost-cli@latest -g`
 
-![Image](/static/images/graphiql.png)
+Puis déplacez vous dans un dossier vide, et faites : 
 
-Amusez vous à faire des requêtes dessus pour prendre en main les données. 
+`ghost install local`
 
-## Et après ? 
+Cela va installer et lancer Ghost. 
 
-Il est temps de construire nos pages. Vous pouvez aller en step-1-2.
+### Mettre le contenu en place
+
+Pour pouvoir avoir le contenu associé, vous devez remplacer le dossier `content` de votre installation présent à la racine par celui disponible sur ce repository. 
+
+Ensuite faites un `ghost stop`, puis un `ghost start` pour redémarrer Ghost afin qu'il puisse prendre en compte la nouvelle base. 
+
+### Se connecter à l'administration
+
+Pour se connecter à l'administration de Ghost, rendez-vous sur l'url : http://localhost:2368/ghost 
+
+Voici les informations de connexion : 
+
+- Identifiant : jean@ubeers.com
+- Mot de passe : cesi-ubeers
+
+
+### Un problème 
+
+N'hésitez pas à venir me voir au sein du Discord si vous avez le moindre problème. 
