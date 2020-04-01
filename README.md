@@ -1,7 +1,6 @@
-# Ubeers Ghost
+# Ubeers Ghost Content
 
 ![Image](images/ghost_logo.png)
-
 
 Ce projet est développé dans le cadre d'un cours sur la JAM Stack donné à CESI en Avril 2020.
 
