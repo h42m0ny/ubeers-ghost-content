@@ -18,6 +18,6 @@
   },
   "process": "local",
   "paths": {
-    "contentPath": "/content"
+    "contentPath": "content/"
   }
 }
