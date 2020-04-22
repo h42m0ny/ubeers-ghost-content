@@ -21,7 +21,7 @@
   "license": "MIT",
   "main": "./core/index",
   "scripts": {
-    "start": NODE_ENV=production "node index",
+    "start": "NODE_ENV=production node index",
     "dev": "DEBUG=ghost:* grunt dev",
     "test": "grunt validate",
     "ci": "grunt validate --verbose",
