@@ -3,3 +3,5 @@ content/
 yarn.lock
 config.development.json
 _content/	
+.ghostpid
+.vscode
