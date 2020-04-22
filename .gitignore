@@ -1,3 +1,4 @@
 node_modules
-ghost-rep/content/logs/
-*.log
+/content/
+yarn.lock
+config.development.json
