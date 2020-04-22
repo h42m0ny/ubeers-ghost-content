@@ -1,4 +1,5 @@
 node_modules
-/content/
+content/
 yarn.lock
 config.development.json
+_content/	
